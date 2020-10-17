@@ -23,7 +23,7 @@ class Counter extends Component {
         return (
             <div className="counter__wrapper">
                 <Button className="counter__button" onClick={this.increment} color="success">Inc</Button>
-                <Alert className="counter__alert" color="info">{`Here is the number: ${this.props.value}`}</Alert>
+                <Alert className="counter__alert" color="info">{`Here is the number: `}<span className="counter__span">{this.props.value}</span></Alert>
                 <Button className="counter__button" onClick={this.decrement} color="danger">Dec</Button>
                 <br/>
                 <Button className="counter__button" onClick={this.reset} color="info">Reset</Button>
