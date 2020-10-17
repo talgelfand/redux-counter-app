@@ -1,0 +1,18 @@
+.counter {
+    &__wrapper {
+        display: block;
+    }
+    &__alert {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 210px;
+    }
+    &__button {
+        width: 100px;
+        &:last-child {
+            margin-top: 10px;
+        }
+    }
+}
