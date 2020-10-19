@@ -1,17 +1,19 @@
-// const inc = () => {
-//     type: INC
-// }
+import {INC, DEC, RES} from './types';
 
-// const dec = () => {
-//     type: DEC
-// }
+const inc = () => ({
+    type: INC
+});
 
-// const res = () => {
-//     type: RES
-// }
+const dec = () => ({
+    type: DEC
+});
 
-// export {
-//     inc, 
-//     dec,
-//     res
-// }
+const res = () => ({
+    type: RES
+});
+
+export {
+    inc, 
+    dec,
+    res
+}
