@@ -7,18 +7,6 @@ import "./counter.scss";
 
 class Counter extends Component {
 
-    // increment = () => {
-    //     this.props.dispatch({ type: INC })
-    // }
-
-    // decrement = () => {
-    //     this.props.dispatch({ type: DEC })
-    // }
-
-    // reset = () => {
-    //     this.props.dispatch({ type: RES })
-    // }
-
     render() {
         return (
             <div className="counter__wrapper">
